@@ -4,19 +4,79 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Untitled Document</title>
+    <title>Home</title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+<style>
+	body {
+	background-color:#363F37;	
+	}
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #536054;
+}
+
+.active {
+  background-color: #017864;
+}
+.col-sm-4,.col-sm-8{
+background-color: #2B2B2B
+}
+ .container-md {
+      padding-right: 50px;
+    }
 	
+</style>
   </head>
   <body>
-  <text> Hello Lily! </text>
+
+<!--Container Start-->	  
+	<div class="container">
+<!--Bootstrap Navbar-->
+ 	<ul>
+  		<li><a class="active" href="#home">Home</a></li>
+  		<li><a href="#maps">Maps</a></li>
+  		<li><a href="#lore">Lore</a></li>
+		<li><a href="#rulechanges">Rule Changes</a></li>
+ 	</ul>
+<!--Bootstrap Unequal Columns--> 
+	<div class="row">
+  		<div class="col-sm-4">.col-sm-4</div>
+  		<div class="col-sm-8">.col-sm-8</div>
+	</div>
+<!--Container End-->
+	</div>  
+
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-3.3.1.min.js"></script>
 
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/popper.min.js"></script> 
-	<script src="js/bootstrap-4.3.1.js"></script>
-  </body>
+  <script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.3.1.js"></script>
+</body>
 </html>
