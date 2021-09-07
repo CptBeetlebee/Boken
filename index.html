@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <!-- Bootstrap -->
-	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
 <style>
 	body {
 	background-color:#363F37;	
@@ -46,9 +45,32 @@ li a:hover:not(.active) {
 .col-sm-4,.col-sm-8{
 background-color: #2B2B2B
 }
- .container-md {
-      padding-right: 50px;
-    }
+.container-md {
+	padding-right: 50px;
+}
+	
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-sm-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+  
+.col-sm-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
 	
 </style>
   </head>
