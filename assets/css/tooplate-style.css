@@ -14,7 +14,7 @@ body {
 }
 
 #page-wraper {
-    background: #02ad92 no-repeat center center fixed;
+    background: #005244 no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -264,7 +264,7 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    color: #2279BD;
+    color: #00241e;
     background-color: #fff;
     width: 66px;
     height: 66px;
